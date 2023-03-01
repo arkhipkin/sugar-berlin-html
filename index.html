@@ -9,6 +9,7 @@
 
 <style>
     #contents { width:100%; height:100%; }
+    /* #contents { width:"350"; height:100%; } */
 </style>
 
 <!-- <iframe id="contents" src="https://jsfiddle.net/q2nw8o35/" width="1366" height="768" scrolling="yes"> -->
@@ -23,10 +24,13 @@ function loadlang()
   var cnt = document.getElementById("contents");
   switch (lng)
     {
-    case "en":
-      cnt.src = "https://jsfiddle.net/q2nw8o35/";
+    case "ru":
+      cnt.src = "ru.html";
     break;
-    case "fr":
+    case "de":
+      cnt.src = "de.html";
+    break;
+    case "en":
       cnt.src = "https://jsfiddle.net/jmn8c9tj/";
     break;
     }
